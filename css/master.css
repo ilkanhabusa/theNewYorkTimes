@@ -1,0 +1,42 @@
+header {
+    float: left;
+    width: 100%;
+}
+
+header section.menuHamburger section {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;        
+}
+/* 
+header section.subMenu {
+    background-color: #4f1c59;
+    
+}
+
+header section {
+    border: 1px solid green;
+
+}
+
+header section img {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid blue;
+    width: 5%;
+}
+header section nav {
+    border: 1px solid;
+    width: 70%;
+    margin: 0px;
+    text-align: center;
+}
+
+header section nav ul li{
+    display: inline-block; 
+}
+
+main aside section {
+    background-color: #ec674e;
+} */
