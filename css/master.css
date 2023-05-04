@@ -1,0 +1,272 @@
+header {
+    float: left;
+    width: 100%;
+}
+
+main {
+    margin-left: 75px;
+}
+
+header section.menuHamburger section {
+    width: 14px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;       
+}
+
+header section.menuHamburger {
+    width: 33px;
+    height: 34px;
+    background-color: white;
+    float: left;
+
+    border: 0px green solid;       
+}
+
+header section.sectSearch {
+    width: 33px;
+    height: 34px;
+    float: left;
+
+    border: 0px green solid;    
+}
+
+header section.sectSearch button.btnSearch {
+    width: 33px;
+    height: 34px;
+
+    border: 0px rgb(186, 203, 26) solid;    
+}
+
+header section.sectMenuIdioms {
+    border: 0px rgb(14, 228, 32) solid;
+    text-align: center;
+}
+
+header section.sectMenuIdioms nav ul {
+    color: #666;
+    letter-spacing: 0.03em;
+    margin-top: 2px;
+}
+
+header section.sectMenuIdioms nav ul li{
+    display: inline-block;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+}
+
+header section.sectMenuIdioms nav ul li a.menuOne{
+    display: inline-block;
+    border-radius: 3px;
+    padding: 7px 10px;
+}
+
+header section.sectDate {
+    color: #121212;
+    font-size: 12px;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    display: none;
+    width: auto;
+    font-weight: 700;
+    display: block;
+    width: 168px;
+    float: left;
+
+}
+
+header section.sectDate span{
+    margin: 0;
+    padding: 0;
+    border: 0px red solid;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+header section.sectToday span{
+    margin: 0;
+    padding: 0;
+    border: 0px red solid;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    float: left;
+
+}
+
+header section.sectToday {
+    color: #121212;
+    font-size: 12px;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    display: none;
+    width: auto;
+    display: block;
+    width: 168px;
+    float: left;
+
+}
+h6 {
+    text-align: center;
+   display: inline-block;
+}
+
+header section.mainTitle {
+    display: block;
+    align-items: center;
+    width: 70%;
+    border: 0px pink solid;
+    float: left;
+
+    margin: 0px;
+    padding-left: 75px;
+    padding-top: -50px;
+}
+
+header section.mainMenu section.menuOpt nav ul li a {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 4px;
+    transition: background 0.6s ease;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+
+header section.mainMenu section.menuOpt nav ul li{
+    display: inline-block;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+header section.mainMenu section.menuOpt nav ul {
+    
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 4px;
+    margin: 0 20px;
+}
+
+header section.mainMenu section.menuOpt {
+
+}
+
+
+header section.mainMenu section.menuOpt::after {
+    content: '';
+    border-bottom: 1px double #000;
+    display: block;
+}
+
+main aside {
+    width: 320px;
+    float: left;
+
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.css-vf1hbp {
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-size: 1.375rem;
+    line-height: 1.15em;
+    margin: 0;
+    color: var(--color-content-primary,#121212);
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+.css-ypax4q {
+    list-style: none;
+    position: relative;
+    color: var(--color-content-tertiary,#5A5A5A);
+    color: var(--color-content-tertiary,#5A5A5A);
+    font-family: nyt-imperial;
+    font-size: 0.875rem;
+    -webkit-letter-spacing: 0.1px;
+    -moz-letter-spacing: 0.1px;
+    -ms-letter-spacing: 0.1px;
+    letter-spacing: 0.1px;
+    line-height: 1.1875rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.css-ypax4q li::before {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    left: -8px;
+    top: 8px;
+    content: '';
+    display: block;
+    background: var(--color-content-quaternary,#727272);
+    position: absolute;
+}
+
+.css-ypax4q > *::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid var(--color-stroke-tertiary,#C7C7C7);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* clear: both; */
+    grid-column: 1/-1;
+}
+
+main section.latestPhotos{
+    border: 0px brown solid;
+    width: 550px;
+    float: left;
+    margin-left: 20px;
+}
+
+main section.latestPhotos img {
+    width: 522px;
+    height: 348px;
+}
+
+main aside.rigthNews {
+
+}
+
+main aside.rigthNews img{
+    width: 337px;
+    height: 225px;
+    margin-top: 10px;
+}
+
+main aside.rigthNews::before {
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: calc(-1rem - 1px);
+    border-left: 1px solid var(--color-stroke-tertiary,#C7C7C7);
+}
+
